@@ -1,0 +1,25 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is a react test project ",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/MohitSalvi16/React-Mastery#readme",
+  "bugs": {
+    "url": "https://github.com/MohitSalvi16/React-Mastery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohitSalvi16/React-Mastery.git"
+  },
+  "license": "ISC",
+  "author": "Mohit",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}

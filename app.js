@@ -1,16 +1,39 @@
-   const parent=React.createElement("div",
-      {id: "Parent"},
-      [React.createElement("div",{id: "child"}, 
-         [React.createElement("h1",{}, "I'm a h1 tag"),
-            React.createElement("h2",{}, "I'm a h2 tag")])],
-
-      [React.createElement("div",{id: "child"}, 
-         [React.createElement("h1",{}, "I'm a h1 tag"),
-            React.createElement("h2",{}, "I'm a h2 tag")]),])
+   import React from "react";
+   import ReactDOM from "react-dom/client";
    
-   const heading=React.createElement("h1", {id: "heading"},"This is a React test");
+   // const heading= React.createElement("h1",{id:"heading"},"Namaste React");
 
    const root=ReactDOM.createRoot(document.getElementById("root"));
 
-   console.log(parent);
-   root.render(parent);
+
+   // console.log(heading);
+
+const elem=<span>React Element</span>;
+
+const Title=()=>(
+
+<h1 className="head">
+{elem}
+This is a JSX syntax
+
+</h1>
+);
+
+const data=10000;
+
+const HeadingComponent=()=>(
+    <div>
+
+      <Title/>
+      <Title></Title>
+      {Title()}
+   <h1 id="container" className="new">This is a Function componet</h1>
+    </div>
+);
+
+   root.render(<HeadingComponent/>);
+
+   console.log(jsxHeading);
+
+
+   
